@@ -1,10 +1,12 @@
 import interfaces.Human;
 
-public class Person implements Human {
+public abstract class Person implements Human {
+
     String name;
     String birthday;
     int age;
     String gender;
+
 
     public String getName() {
         return name;
@@ -22,6 +24,7 @@ public class Person implements Human {
         this.birthday = birthday;
     }
 
+
     public int getAge() {
         return age;
     }
@@ -37,6 +40,8 @@ public class Person implements Human {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
+
 
     @Override
     public void say() {

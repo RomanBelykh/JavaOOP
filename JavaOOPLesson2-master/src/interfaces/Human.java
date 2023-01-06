@@ -1,6 +1,10 @@
 package interfaces;
 
 public interface Human {
+    String eyeColor = "brown";
+    String skinColor = "white";
+
+
     public void say();
 
     public void see();

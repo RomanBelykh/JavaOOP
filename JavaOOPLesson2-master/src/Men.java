@@ -1,8 +1,8 @@
 public class Men extends Person {
-    boolean militaryDuty = false;
-    boolean notSick = true;
-    boolean father = false;
-    int children = 0;
+    private boolean militaryDuty = false;
+    private boolean notSick = true;
+    private boolean father = false;
+    private int children = 0;
     String gender = "Men";
 
     public Men() {
@@ -57,6 +57,7 @@ public class Men extends Person {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
 
     @Override
     public String toString() {

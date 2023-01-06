@@ -23,7 +23,7 @@ public class Main {
         men.sleep(true);
         women.sleep(false);
 
-
+        System.out.println(men.isFather());
 
     }
 }

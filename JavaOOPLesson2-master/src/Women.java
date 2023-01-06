@@ -1,7 +1,7 @@
 public class Women extends Person {
-    boolean notSick = true;
-    boolean mother = false;
-    int children = 0;
+    private boolean notSick = true;
+    private boolean mother = false;
+    private int children = 0;
     String gender = "Women";
 
     public int getChildren() {
